@@ -6,7 +6,9 @@ public class Program_3 {
         for (int j = 0; j < n; j++)
         {
             for (int i = n - 1; i >= 0; i--)
+            {
                 System.out.print(arr[i][j] + " ");
+            }
             System.out.println();
         }
     }
